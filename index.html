@@ -4,87 +4,113 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Welcome Page</title>
-  <link rel="stylesheet" href="assets/css/nav.css">
+  <link rel="stylesheet" href="assets/css/main.css">
 </Head>
 
-<style>
-
-  body {
-    background-image: url(assets/media/poly_scene.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size:cover;
-    font-family: "dosis", sans-serif;
-  }
-
-  .right{
-    text-color: #000145;
-    position: static;
-    font-size: 50px;
-    font-family: "Century Gothic", sans-serif;
-    text-align: right;
-    float:right;
-  }
-
-  .left{
-    position: relative;
-    float:left;
-  }
-
-  .center{
-    float:left;
-    margin-top:2%;
-    text-color: #000145;
-    font-family: "Century Gothic", sans-serif;
-    text-align: justify;
-
-  }
-
-
-</style>
-
 <body>
+  <nav>
+    <div class="home">
+      <a href="index.html">
+        <img src="assets/media/home-icon.png">
+      </a>
+    </div>
+    <header>
+      <ul>
+        <li><b><a href="#">Resume</a></b></li>
+        <li><b><a href="#pro">My Projects</a></b></li>
+        <li><b><a href="#">Contact me</a></b></li>
+      </ul>
+    </header>
 
-<ul class="navpg">
-  <li class="list_nav"><a class="active" href="index.html">Home</a></li>
-  <li class="list_nav"><a href="education.html">Educational Background</a></li>
-  <li class="list_nav"><a href="resume~.html">Resume</a></li>
-  <li class="list_nav"><a href="graphic.html">Showcase</a></li>
-  <li class="list_nav"><a href="personal.html">About Me</a></li>
+    <svg xmlns="http://www.w3.org/2000/svg" width="93" height="48.212" viewBox="0 0 93 48.212">
+      <g id="Group_1" data-name="Group 1" transform="translate(-823 -51.23)">
+        <g id="Rectangle_3" data-name="Rectangle 3" transform="translate(916 51.23) rotate(90)" fill="#fff" stroke="#000" stroke-width="8">
+          <rect width="48.212" height="93" rx="24.106" stroke="none"/>
+          <rect x="4" y="4" width="40.212" height="85" rx="20.106" fill="none"/>
+        </g>
+        <circle id="Ellipse_3" data-name="Ellipse 3" cx="10.822" cy="10.822" r="10.822" transform="translate(880.178 64.514)"/>
+      </g>
+    </svg>
 
-</ul>
+    <div class="socials">
+      <ul>
+        <li class="linkedin"><a href="https://www.linkedin.com/in/aashwin-katiyar-104b58183/"><img src="assets/media/linkedin-icon.png" alt="LinkedIn"></a></li>
+        <li class="github"><a href="https://github.com/aashwink9"><img src="assets/media/github-icon.png" alt="Github"></a></li>
+      </ul>
+    </div>
+  </nav>
+  <img class="mebw" src="assets/media/mebwbackground.png">
 
+  <div class="introduction">
+    <h1>Hi, I'm Aashwin</h1>
+    <h2>Aspiring Software Developer</h2>
+    <p>"I think it is possible for odinary <br>people to choose to be extraodinary"<br> - Elon Musk</p>
+  </div>
 
-<div class="left">
-  <img src="assets/media/self_index.png">
-</div>
+  <div class="circle1" id="pro"></div>
 
-<div class="center">
-  <h2 align="center">Mission Statement</h2>
-  <p align="center">Hi, I am Aashwin Katiyar, a Computer Science student <br>
-    at Rochester Institute of Technology, currently in my <br>
-    third year. I am an avid learner in the field of computers <br>
-    and my hobbies include a wide range of activities, from <br>
-    coding to playing video games to Music. I created <br>
-    this website to tell people more about myself and <br>
-    share my passion of technology and what a <br>
-    single person with the right tools can achieve.<br>
-    To know more about me, click on the "About Me"<br>
-    page on the top navigation bar!
-  </p>
-      </thead>
-    </fieldset>
-</div>
+  <div class="project1">
+    <div class="textbox1">
+      <h3>FEATURED  PROJECT</h3>
 
-<div class="right">
-  <h1>
-    Hello, <br>
-    My Name's <br>
-    Aashwin.
-  </h1>
-</div>
+      <h1>
+        Giddion - An all purpose<br> Discord Bot
+      </h1>
 
+      <h2>
+        Made in Python
+      </h2>
+
+      <p>
+        Capable of playing music from title or <br>
+        URL, responding to specific keywords, and <br>
+        moderating a server, this bot packs the power to <br>
+        organize a server through the magic of the<br>
+        discord python module and the async functionality of python!<br>
+      </p>
+    </div>
+  </div>
+
+  <div class="project1"><img src="assets/media/glogobnw.png"></div>
+  
+  <div class="circle2"></div>
+
+  <div class="project2">
+    <div class="textbox2">
+      <h3>FEATURED  PROJECT</h3>
+
+      <h1>
+        PyMov - A Movie<br> 
+        Simulation CLI<br>
+        Application
+      </h1>
+
+      <h2>
+        Made in Python/PostgreSQL
+      </h2>
+
+      <p>
+        *Slaps the back* This bad boy<br>
+        is capable of performing so many operations
+        you'll be lost<br> trying to discover your very
+        own world of movies<br> that are unique from a
+        catalogue that is endless.
+      </p>
+
+    </div>
+  </div>
+
+  <div class="project2">
+    <img src="assets/media/movie-sim.png">
+  </div>
+
+  <div class="resume">
+    <h3>[My website is still under construction, thanks for checking out the early beta!]</h3>
+  </div>
+
+  <script src="assets/scripts/scroll-smooth.js"></script>
 </body>
 
 </html>
